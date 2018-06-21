@@ -115,6 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="all.h" />
+    <ClInclude Include="动态规划\变态跳台阶.hpp" />
+    <ClInclude Include="动态规划\斐波那契数列.hpp" />
+    <ClInclude Include="动态规划\矩形覆盖.hpp" />
+    <ClInclude Include="动态规划\跳台阶.hpp" />
+    <ClInclude Include="动态规划\连续子数组的最大和.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
