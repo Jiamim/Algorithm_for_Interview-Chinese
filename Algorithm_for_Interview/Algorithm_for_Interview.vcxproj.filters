@@ -57,12 +57,6 @@
     <ClInclude Include="链表\复杂链表的复制.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DFS-深度优先遍历\二叉树中和为某一值得路径.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="DFS-深度优先遍历\字符串的排列.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="字符串\atoi.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -196,6 +190,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="二叉树（递归）\重建二叉树.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS-深度优先搜索\二叉树中和为某一值得路径.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DFS-深度优先搜索\字符串的排列.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
