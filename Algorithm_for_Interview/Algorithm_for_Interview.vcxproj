@@ -154,9 +154,12 @@
     <ClInclude Include="字符串\替换空格.hpp" />
     <ClInclude Include="字符串\正则表达式匹配.hpp" />
     <ClInclude Include="字符串\第一次只出现一次的字符.hpp" />
-    <ClInclude Include="排序与查找\_二维数组中查找.hpp" />
-    <ClInclude Include="排序与查找\_数组中重复的数.hpp" />
-    <ClInclude Include="排序与查找\_旋转数组中的最小数字.hpp" />
+    <ClInclude Include="test.hpp" />
+    <ClInclude Include="排序与查找\_二分查找-最优解.hpp" />
+    <ClInclude Include="排序与查找\_二分查找.hpp" />
+    <ClInclude Include="排序与查找\暴力查找_二维数组中查找.hpp" />
+    <ClInclude Include="排序与查找\暴力查找_数组中重复的数.hpp" />
+    <ClInclude Include="排序与查找\二分查找_旋转数组中的最小数字.hpp" />
     <ClInclude Include="排序与查找\二分查找_数字在排序数组中出现的次数.hpp" />
     <ClInclude Include="排序与查找\双指针_和为S的两个数.hpp" />
     <ClInclude Include="排序与查找\暴力查找_和为S的连续正数序列.hpp" />

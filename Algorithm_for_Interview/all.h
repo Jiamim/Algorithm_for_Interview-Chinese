@@ -27,7 +27,11 @@ print(T t) {
     cout << t << endl;
 }
 
-// Definition for a binary tree node.
+// 常亮
+#define EPSILON     10e-5
+#define INF         0x3f3f3f3f
+
+// 二叉树
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -36,6 +40,7 @@ struct TreeNode {
 
 };
 
+// 线索树
 struct TreeLinkNode {
     int val;
     struct TreeLinkNode *left;
@@ -46,6 +51,7 @@ struct TreeLinkNode {
     }
 };
 
+// 链表
 struct ListNode {
     int val;
     struct ListNode *next;

@@ -129,15 +129,6 @@
     <ClInclude Include="字符串\第一次只出现一次的字符.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="排序与查找\_二维数组中查找.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="排序与查找\_数组中重复的数.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="排序与查找\_旋转数组中的最小数字.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="排序与查找\暴力查找_和为S的连续正数序列.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -196,6 +187,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="DFS-深度优先搜索\字符串的排列.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="排序与查找\二分查找_旋转数组中的最小数字.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="排序与查找\暴力查找_数组中重复的数.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="排序与查找\暴力查找_二维数组中查找.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="排序与查找\_二分查找.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="排序与查找\_二分查找-最优解.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
