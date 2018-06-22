@@ -20,6 +20,8 @@
 */
 #pragma once
 
+#include "../all.h"
+
 class Solution {
 public:
     int rectCover(int number) {
