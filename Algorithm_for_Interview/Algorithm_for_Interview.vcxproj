@@ -118,6 +118,7 @@
     <ClInclude Include="all.h" />
     <ClInclude Include="DFS-深度优先搜索\二叉树中和为某一值得路径.hpp" />
     <ClInclude Include="DFS-深度优先搜索\字符串的排列.hpp" />
+    <ClInclude Include="常用子函数\遍历子集（递归）.hpp" />
     <ClInclude Include="二叉树（递归）\中序遍历的下一个结点.hpp" />
     <ClInclude Include="二叉树（递归）\二叉搜索树与双向链表.hpp" />
     <ClInclude Include="二叉树（递归）\二叉搜索树的后序遍历序列.hpp" />
@@ -137,6 +138,7 @@
     <ClInclude Include="其他\_求1+2+...+n.hpp" />
     <ClInclude Include="其他\逻辑_扑克牌顺子.hpp" />
     <ClInclude Include="其他\逻辑_整数中1出现的次数.hpp" />
+    <ClInclude Include="动态规划\划分数组使和之差最小.hpp" />
     <ClInclude Include="动态规划\变态跳台阶.hpp" />
     <ClInclude Include="动态规划\斐波那契数列.hpp" />
     <ClInclude Include="动态规划\矩形覆盖.hpp" />
@@ -155,8 +157,8 @@
     <ClInclude Include="字符串\正则表达式匹配.hpp" />
     <ClInclude Include="字符串\第一次只出现一次的字符.hpp" />
     <ClInclude Include="test.hpp" />
-    <ClInclude Include="排序与查找\_二分查找模板-最优解.hpp" />
-    <ClInclude Include="排序与查找\_二分查找模板.hpp" />
+    <ClInclude Include="常用子函数\二分查找模板-最优解.hpp" />
+    <ClInclude Include="常用子函数\二分查找模板.hpp" />
     <ClInclude Include="排序与查找\暴力查找_二维数组中查找.hpp" />
     <ClInclude Include="排序与查找\暴力查找_数组中重复的数.hpp" />
     <ClInclude Include="排序与查找\二分查找_旋转数组中的最小数字.hpp" />

@@ -30,6 +30,7 @@ print(T t) {
 // ³£ÁÁ
 #define EPSILON     10e-5
 #define INF         0x3f3f3f3f
+#define N1000       1000
 
 // ¶þ²æÊ÷
 struct TreeNode {

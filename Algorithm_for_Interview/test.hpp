@@ -11,5 +11,5 @@ solve()
     auto ret = upper_bound(v.begin(), v.end(), 7);
     
     if(ret != v.end())
-        cout << *ret;
+        print(*ret);
 }

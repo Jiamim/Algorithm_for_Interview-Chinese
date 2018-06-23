@@ -29,7 +29,7 @@ public:
 
         int lo = -1, hi = nums.size();
 
-        while (hi - lo > 1) {                       // 退出循环时有：lo + 1 == hi
+        while (hi - lo > 1) {
             int mid = lo + (hi - lo) / 2;
             if (nums[mid] < v)
                 lo = mid;
@@ -45,19 +45,23 @@ public:
 
         int lo = -1, hi = nums.size();
 
-        while (hi - lo > 1) {
+        while (hi - lo > 1) {                       // 退出循环时有：lo + 1 == hi
             int mid = lo + (hi - lo) / 2;
             if (nums[mid] < v)
-                lo = mid;
+                lo = mid;                           // 因为始终将 lo 端当做开区间，所以没有必要 `lo = mid + 1;`
             else
-                hi = mid;
+                hi = mid;                           // 而在 else 中，mid 可能就是最后的结果，所以不能 `hi = mid - 1`
         }
 
         return lo + 1; // 相比 binary_search，只有返回值不同
-        // lo + 1 == hi ——根据循环条件，退出循环时，必有 `lo + 1 == hi`
-        // 为什么返回 `lo+1`，而不是 `hi`？（实际上没有区别）
-        //   模板开始时将 (lo, hi) 看做是一个开区间，最后退出循环时会成为 (lo, hi]，且 lo+1 == hi
-        //   为了统一始终将 (lo, hi) 看做开区间，所以最后返回 lo+1
+
+        /*为什么返回 `lo+1`，而不是 `hi`？（退出循环时有 lo + 1 == hi）
+            模板开始时将 (lo, hi) 看做是一个开区间，通过不断二分，最终这个区间中只会含有一个值，即 (lo, hi]
+            返回 lo+1 的含义是，结果就在 lo 的下一个；
+            在迭代的过程中，lo 始终是开区间，而 hi 会从开区间变为闭区间，
+            返回 lo+1 显得更加统一。
+            当然，这跟迭代的写法是相关的，你也可以使最终的结果区间是 [lo, hi)，这取决于个人习惯。
+        */
     }
 
     int upper_bound(vector<int>& nums, int v) {
@@ -68,7 +72,7 @@ public:
         while (hi - lo > 1) {
             int mid = lo + (hi - lo) / 2;
 
-            if (nums[mid] <= v) // 相比 lower_bound，唯一不同点：`<` -> `<=`
+            if (nums[mid] <= v)                     // 相比 lower_bound，唯一不同点：`<` -> `<=`
                 lo = mid;
             else
                 hi = mid;

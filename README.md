@@ -1,6 +1,12 @@
 ## 面试算法/数据结构笔记
 
-### 算法目录
+### 问题目录
+
+- [常用子函数](./Algorithm_for_Interview/常用子函数)
+	- 二分查找模板
+	- 二分查找-最优解模板
+	- 遍历子集（递归）
+	- 排列组合
 
 - [动态规划](./Algorithm_for_Interview/动态规划)
 - [深度优先搜索](./Algorithm_for_Interview/深度优先搜索)
