@@ -129,18 +129,6 @@
     <ClInclude Include="字符串\第一次只出现一次的字符.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="排序与查找\暴力查找_和为S的连续正数序列.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="排序与查找\二分查找_数字在排序数组中出现的次数.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="排序与查找\自定义排序_把数组排成最小的数.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="排序与查找\双指针_和为S的两个数.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="其他\_求1+2+...+n.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -189,19 +177,7 @@
     <ClInclude Include="DFS-深度优先搜索\字符串的排列.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="排序与查找\二分查找_旋转数组中的最小数字.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="排序与查找\暴力查找_数组中重复的数.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="排序与查找\暴力查找_二维数组中查找.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="test.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="动态规划\划分数组使和之差最小.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="常用子函数\二分查找模板.hpp">
@@ -211,6 +187,30 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="常用子函数\遍历子集.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\二分查找_数字在排序数组中出现的次数.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\二分查找_旋转数组中的最小数字.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\双指针_和为S的两个数.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\自定义排序_把数组排成最小的数.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\暴力搜索_二维数组中查找.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\暴力搜索_和为S的连续正数序列.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\暴力搜索_数组中重复的数.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="查找与排序\暴力搜索_划分数组使和之差最小.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -10,7 +10,7 @@
 
 - [动态规划](./Algorithm_for_Interview/动态规划)
 - [深度优先搜索](./Algorithm_for_Interview/深度优先搜索)
-- [排序与查找](./Algorithm_for_Interview/排序与查找)
+- [查找与排序](./Algorithm_for_Interview/查找与排序)
 - [位运算](./Algorithm_for_Interview/位运算)
 - [数学](./Algorithm_for_Interview/数学)
 - [其他](./Algorithm_for_Interview/其他)

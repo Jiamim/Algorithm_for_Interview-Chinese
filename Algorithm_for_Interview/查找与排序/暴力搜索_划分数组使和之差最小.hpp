@@ -41,6 +41,7 @@ imhuay/Deep_Learning_Notes_for_Interview-Chinese https://github.com/imhuay/Deep_
 
 class Solution {
 public:
+    // ˼· 2
     int getMaxDiff(vector<int>& nums) {
 
         vector<vector<int>> subsets;
