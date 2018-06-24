@@ -27,7 +27,12 @@ imhuay/Deep_Learning_Notes_for_Interview-Chinese https://github.com/imhuay/Deep_
         以上方法虽然可行，但是相当浪费空间：容量 j 显然不是连续的自然数，还有可能发生溢出
 
     思路 2：
-        遍历数组 N 的所有子集 I，求 2*abs(sum(N)/2 - sum(I))，取最小，即为返回值
+        （暴力搜索）遍历数组 N 的所有子集 I，求 2*abs(sum(N)/2 - sum(I))，取最小，即为返回值
+        > ../常用子函数/遍历子集
+
+        注意点：
+        - sum(N)/2 可能是浮点数，所以中间结果应该存为 double 类型
+        - 最后返回值是 2 * abs(sum(N)/2 - sum(I))，而不是 abs(sum(N)/2 - sum(I))
 
 */
 #pragma once
@@ -37,23 +42,49 @@ imhuay/Deep_Learning_Notes_for_Interview-Chinese https://github.com/imhuay/Deep_
 class Solution {
 public:
     int getMaxDiff(vector<int>& nums) {
-        int sum = 0;
+
+        vector<vector<int>> subsets;
+        getAllSubsets(nums, subsets);
+
+        double sum = getSum(nums);
+        double diff = INF;
+        for (auto sub : subsets) {
+            diff = min(diff, abs(sum / 2 - getSum(sub)));
+        }
+        
+        return diff * 2;
+    }
+
+    double getSum(vector<int>& nums) {
+        double sum = 0;
         for (auto i : nums)
             sum += i;
+        return sum;
+    }
 
-        int n = nums.size();
-        int dp[N1000][N1000];
-        for (size_t i = 0; i < n; i++) {
+    void getAllSubsets(vector<int>& vs, vector<vector<int>>& subsets) {
+        subsets.push_back({});
 
-
+        vector<vector<int>> tmp;
+        for (auto i : vs) {
+            for (auto sub : subsets) {
+                sub.push_back(i);
+                tmp.push_back(sub);
+            }
+            for (auto sub : tmp) {
+                subsets.push_back(sub);
+            }
+            tmp.clear();
         }
-
-
     }
 };
 
 void
 solve()
 {
+    vector<int> nums{ 2,5,6,10 };
 
+    auto ret = Solution().getMaxDiff(nums);
+
+    print(ret);
 }

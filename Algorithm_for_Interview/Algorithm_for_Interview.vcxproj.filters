@@ -204,13 +204,13 @@
     <ClInclude Include="动态规划\划分数组使和之差最小.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="常用子函数\遍历子集（递归）.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="常用子函数\二分查找模板.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="常用子函数\二分查找模板-最优解.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="常用子函数\遍历子集.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
