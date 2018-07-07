@@ -213,6 +213,9 @@
     <ClInclude Include="查找与排序\暴力搜索_划分数组使和之差最小.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="动态规划\编辑距离.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
