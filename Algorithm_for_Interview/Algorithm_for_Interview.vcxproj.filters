@@ -171,22 +171,7 @@
     <ClInclude Include="二叉树（递归）\重建二叉树.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DFS-深度优先搜索\二叉树中和为某一值得路径.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="DFS-深度优先搜索\字符串的排列.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="test.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="常用子函数\二分查找模板.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="常用子函数\二分查找模板-最优解.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="常用子函数\遍历子集.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="查找与排序\二分查找_数字在排序数组中出现的次数.hpp">
@@ -214,6 +199,33 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="动态规划\编辑距离.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="动态规划\编辑距离2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="深度优先搜索\二叉树中和为某一值得路径.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="深度优先搜索\字符串的排列.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\遍历子集.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\二分查找模板.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\二分查找模板-最优解.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\遍历所有正因子.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="动态规划\最长回文子序列.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="动态规划\最长回文子串.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
