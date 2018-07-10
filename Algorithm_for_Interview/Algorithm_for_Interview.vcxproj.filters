@@ -228,6 +228,9 @@
     <ClInclude Include="动态规划\最长回文子串.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="贪心\根据身高重建队列.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

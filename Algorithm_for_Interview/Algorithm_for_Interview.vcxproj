@@ -178,6 +178,7 @@
     <ClInclude Include="数组\数组中的逆序对.hpp" />
     <ClInclude Include="数组\调整数组顺序使奇数位于偶数前面.hpp" />
     <ClInclude Include="数组\顺时针打印矩阵.hpp" />
+    <ClInclude Include="贪心\根据身高重建队列.hpp" />
     <ClInclude Include="链表\两个链表的第一个公共节点.hpp" />
     <ClInclude Include="链表\从尾到头打印链表.hpp" />
     <ClInclude Include="链表\删除链表中重复的结点.hpp" />
