@@ -1,5 +1,5 @@
 /*
-只出现一次的数字 II - LeetCode (中国) https://leetcode-cn.com/problems/single-number-ii/description/
+137. 只出现一次的数字 II - LeetCode (中国) https://leetcode-cn.com/problems/single-number-ii/description/
 
 题目来源：LeetCode
 
@@ -17,12 +17,12 @@
         输入: [0,1,0,1,0,1,99]
         输出: 99
 
-解题思路：
+思路：
     1. 使用额外空间
         1) 使用字典/map，该方法只能满足时间复杂度，空间复杂度为 O(n)
         2) 使用集合 sum(set(nums))*3 - sum(nums) = 2 * x，空间复杂度为 O(n)
 
-    2. 位操作
+    2. 位操作——不使用额外空间
         目前看到两个思路：
           1) https://leetcode.com/problems/single-number-ii/discuss/43297/Java-O(n)-easy-to-understand-solution-easily-extended-to-any-times-of-occurance
             思路1 比较清晰：若数组中没有x，且其他所有数字都出现了三次，
@@ -30,7 +30,7 @@
             该方法的时间复杂度位 O(mn)，其中 m 为二进制的位数，一般 m=32，可以看作时间复杂度为 O(n)
 
             上面只说了思路，实际实现时需要辅以两种位操作。
-                1> 判断第 i 位是否为 1 （i=0:n）
+                1> 判断第 i 位是否为 1 （i 从 0 开始）
                     if ((num >> i & 1) == 1)
                 2> 置第 i 位为 1
                     ans != 1 << i

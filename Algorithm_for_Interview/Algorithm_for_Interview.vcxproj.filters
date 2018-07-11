@@ -237,6 +237,9 @@
     <ClInclude Include="utils\遍历所有子集.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="utils\位运算.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

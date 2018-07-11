@@ -1,7 +1,8 @@
 #include "all.h"
 //#include "test.hpp"
 //#include "常用子函数/遍历子集（递归）.hpp"
-#include "动态规划/最长回文子串.hpp"
+//#include "动态规划/最长回文子串.hpp"
+#include "utils/位运算.hpp"
 
 #define _CRT_SECURE_NO_WARNINGS
 

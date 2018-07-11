@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="all.h" />
+    <ClInclude Include="utils\位运算.hpp" />
     <ClInclude Include="utils\遍历所有正因子.hpp" />
     <ClInclude Include="二叉树\二叉树的坡度.hpp" />
     <ClInclude Include="二叉树\二叉树的直径.hpp" />
