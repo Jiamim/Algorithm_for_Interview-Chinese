@@ -1,11 +1,15 @@
 #pragma once
 #pragma once
 
+#include <cstdio>
+#include <stdio.h>
+#include <cstring>
 #include <iostream>
-#include <string>
+#include <fstream>
 #include <sstream>
 
 // ÈÝÆ÷
+#include <string>
 #include <vector>
 #include <deque>
 #include <stack>

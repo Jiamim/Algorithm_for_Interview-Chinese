@@ -116,12 +116,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="all.h" />
+    <ClInclude Include="Cpp回顾\IO模板.hpp" />
     <ClInclude Include="utils\位运算.hpp" />
     <ClInclude Include="utils\遍历所有正因子.hpp" />
     <ClInclude Include="二叉树\二叉树的坡度.hpp" />
     <ClInclude Include="二叉树\二叉树的直径.hpp" />
     <ClInclude Include="动态规划\最长回文子串.hpp" />
     <ClInclude Include="动态规划\最长回文子序列.hpp" />
+    <ClInclude Include="动态规划\股票最大收益.hpp" />
+    <ClInclude Include="字符串\加减乘除计算.hpp" />
+    <ClInclude Include="字符串\单词位置倒置.hpp" />
     <ClInclude Include="深度优先搜索\二叉树中和为某一值得路径.hpp" />
     <ClInclude Include="深度优先搜索\字符串的排列.hpp" />
     <ClInclude Include="动态规划\编辑距离2.hpp" />

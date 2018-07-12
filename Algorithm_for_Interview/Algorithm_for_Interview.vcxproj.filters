@@ -240,6 +240,18 @@
     <ClInclude Include="utils\位运算.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="字符串\单词位置倒置.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="动态规划\股票最大收益.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp回顾\IO模板.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="字符串\加减乘除计算.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
