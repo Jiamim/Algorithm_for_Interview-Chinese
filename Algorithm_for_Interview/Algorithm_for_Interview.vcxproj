@@ -117,6 +117,13 @@
   <ItemGroup>
     <ClInclude Include="all.h" />
     <ClInclude Include="Cpp回顾\IO模板.hpp" />
+    <ClInclude Include="Cpp回顾\STL容器\heap.hpp" />
+    <ClInclude Include="Cpp回顾\STL容器\list.hpp" />
+    <ClInclude Include="Cpp回顾\STL容器\map.hpp" />
+    <ClInclude Include="Cpp回顾\STL容器\queue.hpp" />
+    <ClInclude Include="Cpp回顾\STL容器\set.hpp" />
+    <ClInclude Include="Cpp回顾\STL容器\stack.hpp" />
+    <ClInclude Include="Cpp回顾\STL容器\vector.hpp" />
     <ClInclude Include="utils\位运算.hpp" />
     <ClInclude Include="utils\遍历所有正因子.hpp" />
     <ClInclude Include="二叉树\二叉树的坡度.hpp" />
@@ -200,6 +207,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
+    <None Include="Cpp回顾\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

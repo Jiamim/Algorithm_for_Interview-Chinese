@@ -13,7 +13,7 @@
 输出：
     是否换行，换几行，换行还是空格要看具体问题
     
-> 
+> ACM学习历程2——ACM题目中常用的输入输出方式 - CSDN博客 https://blog.csdn.net/u010480899/article/details/52280065
 */
 #pragma once
 

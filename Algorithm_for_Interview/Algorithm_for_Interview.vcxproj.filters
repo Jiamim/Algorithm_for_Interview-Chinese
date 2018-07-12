@@ -252,6 +252,27 @@
     <ClInclude Include="字符串\加减乘除计算.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Cpp回顾\STL容器\heap.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp回顾\STL容器\list.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp回顾\STL容器\map.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp回顾\STL容器\queue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp回顾\STL容器\set.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp回顾\STL容器\stack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp回顾\STL容器\vector.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -260,5 +281,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
+    <None Include="Cpp回顾\README.md" />
   </ItemGroup>
 </Project>

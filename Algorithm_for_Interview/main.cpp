@@ -1,23 +1,15 @@
 #include "all.h"
-//#include "test.hpp"
+#include "Cpp回顾\STL容器\vector.hpp"
 //#include "常用子函数/遍历子集（递归）.hpp"
 //#include "动态规划/最长回文子串.hpp"
 //#include "utils/位运算.hpp"
 
 #define _CRT_SECURE_NO_WARNINGS
-
-
 using namespace std;
-
 
 int main() {
 
-    //solve();
-    int a, b;
-    while (cin >> a >> b && (a||b)) {
-        cout << a + b << endl;
-    }
-    ifstream fin("in.txt");
+    solve();
 
     cout << endl;
     system("PAUSE");
