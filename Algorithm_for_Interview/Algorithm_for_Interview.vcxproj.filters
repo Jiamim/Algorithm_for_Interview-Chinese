@@ -96,9 +96,6 @@
     <ClInclude Include="位运算\数值的整数次方.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="位运算\数组中只出现一次的数字.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="位运算\只出现一次的数字2.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -249,9 +246,6 @@
     <ClInclude Include="Cpp回顾\IO模板.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="字符串\加减乘除计算.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Cpp回顾\STL容器\heap.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -280,6 +274,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="深度优先搜索\DFS模板-部分和问题.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="位运算\只出现一次的数字.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树\把二叉搜索树转换为累加树.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="字符串\正则表达式\键盘行.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
