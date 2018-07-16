@@ -6,7 +6,7 @@
 - STL 容器
   
   需要说明的是，很多方法在容器中的接口是一致的，所以并没有全部测试一遍；
-  有些方法则会因为容器本身的性质被屏蔽——比如 queue 就只有 push 方法，而不区分 push_back 还是 push_front
+  有些方法则会因为容器本身的性质被屏蔽——比如 queue 就只有 push 方法，而不区分 push_back 还是 push_front；实际上内部调用的是 deque 的 push_back 方法
 
   - 向量 vector
   - 字典 map

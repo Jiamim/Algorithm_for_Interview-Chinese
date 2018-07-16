@@ -6,6 +6,8 @@
 
     queue 的内部就是 deque 实现的，
     因为双端队列包括的队列的所有功能，所以推荐使用 deque —— 它会使用 _front 和 _back 来区分头插和尾插
+
+    因为 list 也满足 queue 的接口，所以可以使用 list 作为 queue 背后的容器
 */
 #pragma once
 
@@ -37,16 +39,15 @@ public:
 
         // 一般队列
         queue<int> q1(d1);
+        q1.push(12);
 
+        // 因为 list 也满足 queue 的接口，所以可以使用 list 作为 queue 背后的容器
         list<int> l = { 1,2,3,4,5 };
         queue<int, list<int>> q2(l);
 
-        //queue<int> q3{ 1,2,3 };  // error
+        //queue<int> q3{ 1,2,3 };  // error，没有相应的构造函数
         //queue<int, vector<int>> q4;  // warning
-
     }
-
-    
 };
 
 int solve() {

@@ -1,12 +1,12 @@
 #include "all.h"
-#include "Cpp回顾\STL容器\vector.hpp"
+//#include "Cpp回顾/Cpp之string专题.hpp"
 //#include "常用子函数/遍历子集（递归）.hpp"
 //#include "动态规划/最长回文子串.hpp"
 //#include "utils/位运算.hpp"
+#include "深度优先搜索\部分和问题.hpp"
 
-#define _CRT_SECURE_NO_WARNINGS
 using namespace std;
-
+ 
 int main() {
 
     solve();

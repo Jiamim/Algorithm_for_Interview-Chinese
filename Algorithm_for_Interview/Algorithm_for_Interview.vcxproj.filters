@@ -273,6 +273,15 @@
     <ClInclude Include="Cpp回顾\STL容器\vector.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Cpp回顾\Cpp之string专题.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="字符串\找出目标的所有位置.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="深度优先搜索\DFS模板-部分和问题.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -282,5 +291,7 @@
   <ItemGroup>
     <None Include="..\README.md" />
     <None Include="Cpp回顾\README.md" />
+    <None Include="Cpp回顾\Cpp之STL容器.md" />
+    <None Include="Cpp回顾\Cpp之常用方法.md" />
   </ItemGroup>
 </Project>
