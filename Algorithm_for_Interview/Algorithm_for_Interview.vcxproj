@@ -116,17 +116,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="all.h" />
-    <ClInclude Include="Cpp回顾\IO模板.hpp" />
-    <ClInclude Include="Cpp回顾\STL容器\heap.hpp" />
-    <ClInclude Include="Cpp回顾\STL容器\list.hpp" />
-    <ClInclude Include="Cpp回顾\STL容器\map.hpp" />
-    <ClInclude Include="Cpp回顾\STL容器\queue.hpp" />
-    <ClInclude Include="Cpp回顾\STL容器\set.hpp" />
-    <ClInclude Include="Cpp回顾\STL容器\stack.hpp" />
-    <ClInclude Include="Cpp回顾\STL容器\vector.hpp" />
-    <ClInclude Include="Cpp回顾\Cpp之string专题.hpp" />
-    <ClInclude Include="utils\位运算.hpp" />
-    <ClInclude Include="utils\遍历所有正因子.hpp" />
+    <ClInclude Include="_cpp回顾\IO模板.hpp" />
+    <ClInclude Include="_cpp回顾\STL容器\heap.hpp" />
+    <ClInclude Include="_cpp回顾\STL容器\list.hpp" />
+    <ClInclude Include="_cpp回顾\STL容器\map.hpp" />
+    <ClInclude Include="_cpp回顾\STL容器\queue.hpp" />
+    <ClInclude Include="_cpp回顾\STL容器\set.hpp" />
+    <ClInclude Include="_cpp回顾\STL容器\stack.hpp" />
+    <ClInclude Include="_cpp回顾\STL容器\vector.hpp" />
+    <ClInclude Include="_cpp回顾\Cpp之string专题.hpp" />
+    <ClInclude Include="_utils工具函数\位运算.hpp" />
+    <ClInclude Include="_utils工具函数\遍历所有正因子.hpp" />
+    <ClInclude Include="_必背算法\atoi.hpp" />
     <ClInclude Include="二叉树\二叉树的坡度.hpp" />
     <ClInclude Include="二叉树\二叉树的直径.hpp" />
     <ClInclude Include="二叉树\把二叉搜索树转换为累加树.hpp" />
@@ -140,7 +141,7 @@
     <ClInclude Include="深度优先搜索\字符串的排列.hpp" />
     <ClInclude Include="动态规划\编辑距离2.hpp" />
     <ClInclude Include="动态规划\编辑距离.hpp" />
-    <ClInclude Include="utils\遍历所有子集.hpp" />
+    <ClInclude Include="_utils工具函数\遍历所有子集.hpp" />
     <ClInclude Include="二叉树\中序遍历的下一个结点.hpp" />
     <ClInclude Include="二叉树\二叉搜索树与双向链表.hpp" />
     <ClInclude Include="二叉树\二叉搜索树的后序遍历序列.hpp" />
@@ -179,8 +180,8 @@
     <ClInclude Include="字符串\正则表达式匹配.hpp" />
     <ClInclude Include="字符串\第一次只出现一次的字符.hpp" />
     <ClInclude Include="test.hpp" />
-    <ClInclude Include="utils\二分查找模板-最优解.hpp" />
-    <ClInclude Include="utils\二分查找模板.hpp" />
+    <ClInclude Include="_utils工具函数\二分查找模板-最优解.hpp" />
+    <ClInclude Include="_utils工具函数\二分查找模板.hpp" />
     <ClInclude Include="查找与排序\暴力搜索_二维数组中查找.hpp" />
     <ClInclude Include="查找与排序\暴力搜索_数组中重复的数.hpp" />
     <ClInclude Include="查找与排序\二分查找_旋转数组中的最小数字.hpp" />
@@ -211,9 +212,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
-    <None Include="Cpp回顾\Cpp之STL容器.md" />
-    <None Include="Cpp回顾\Cpp之常用方法.md" />
-    <None Include="Cpp回顾\README.md" />
+    <None Include="_cpp回顾\Cpp之STL容器.md" />
+    <None Include="_cpp回顾\Cpp之常用方法.md" />
+    <None Include="_cpp回顾\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

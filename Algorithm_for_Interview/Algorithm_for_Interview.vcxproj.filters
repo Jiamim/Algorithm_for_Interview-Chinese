@@ -174,15 +174,6 @@
     <ClInclude Include="深度优先搜索\字符串的排列.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="utils\二分查找模板.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="utils\二分查找模板-最优解.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="utils\遍历所有正因子.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="动态规划\最长回文子序列.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -231,43 +222,10 @@
     <ClInclude Include="二叉树\二叉树的坡度.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="utils\遍历所有子集.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="utils\位运算.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="字符串\单词位置倒置.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="动态规划\股票最大收益.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\IO模板.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\STL容器\heap.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\STL容器\list.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\STL容器\map.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\STL容器\queue.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\STL容器\set.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\STL容器\stack.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\STL容器\vector.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Cpp回顾\Cpp之string专题.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="字符串\找出目标的所有位置.hpp">
@@ -285,6 +243,51 @@
     <ClInclude Include="字符串\正则表达式\键盘行.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="_utils工具函数\遍历所有正因子.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_utils工具函数\遍历所有子集.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_utils工具函数\二分查找模板.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_utils工具函数\二分查找模板-最优解.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_utils工具函数\位运算.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\STL容器\heap.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\STL容器\list.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\STL容器\map.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\STL容器\queue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\STL容器\set.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\STL容器\stack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\STL容器\vector.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\Cpp之string专题.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_cpp回顾\IO模板.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_必背算法\atoi.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -293,8 +296,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
-    <None Include="Cpp回顾\README.md" />
-    <None Include="Cpp回顾\Cpp之STL容器.md" />
-    <None Include="Cpp回顾\Cpp之常用方法.md" />
+    <None Include="_cpp回顾\Cpp之STL容器.md" />
+    <None Include="_cpp回顾\Cpp之常用方法.md" />
+    <None Include="_cpp回顾\README.md" />
   </ItemGroup>
 </Project>
