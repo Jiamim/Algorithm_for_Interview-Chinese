@@ -288,6 +288,27 @@
     <ClInclude Include="_必背算法\atoi.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="_必背算法\二分查找模板-最优解.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_必背算法\快速幂.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_必背算法\二分查找模板.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_必背算法\排序-堆排序.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_必背算法\排序-快速排序.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_必背算法\排序-归并排序.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_必背算法\dp-01背包.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

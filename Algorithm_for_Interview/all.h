@@ -31,6 +31,11 @@ print(T t) {
     cout << t << endl;
 }
 
+void
+print() {
+    cout << endl;
+}
+
 // ³£ÁÁ
 #define EPSILON     10e-5
 #define INF         0x3f3f3f3f

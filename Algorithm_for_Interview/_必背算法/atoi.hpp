@@ -1,79 +1,87 @@
 /*
-把字符串转换成整数 https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking
+atoi() 的功能:
+    将字符串（C风格）转换成整型；
+    atoi() 会跳过前面的空格字符，直到遇上数字或正负号才开始做转换，
+    而再遇到 非数字 或 结束符('\0') 时结束转化，并将结果返回（返回转换后的整型数）
+    *内置 atoi 不会处理 NULL 指针
+    
+    合法样例：
+        "123"           -> 123
+        "+123"          -> 123
+        "-123"          -> -123
+        "123abc"        -> 123
+        "   123abc"     -> 123
+        "a123"          -> 0
 
-题目来源：剑指Offer
+OJ:
+    把字符串转换成整数 https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking
+    题目来源：剑指Offer
 
-题目描述
-将一个字符串转换成一个整数，要求不能使用字符串转换整数的库函数。 
-数值为0或者字符串不是一个合法的数值则返回0
-
-输入描述:
-    输入一个字符串,包括数字字母符号,可以为空
-输出描述:
-    如果是合法的数值表达则返回该数字，否则返回0
-
-示例1
-输入
-    +2147483647
-    1a33
-
-输出
-    2147483647
-    0
-
-解题思路：
-    int t = str[p] - '0';
-    n = n*10 + t;
-
-    各种错误条件：
-        没有考虑溢出，牛客的用例比较简单
-        
-提交记录：
-
-    1. tmp >= 0 && tmp <= 9 写成了 ||
-
+核心代码：
+    while (*p >= '0' && *p <= '9') {
+        ret = ret * 10 + (*p - '0');
+        p++;
+    }
 
 */
 #pragma once
 #include "../all.h"
 
-class Solution {
-public:
-    int StrToInt(string str) {
-        int len = str.size();
-        if (len <= 0) return 0;
+int atoi_my(const char* cs) {
+    if (cs == NULL) return 0;
 
-        int p = 0;
-        while (str[p] == ' ') p++;
+    int ret = 0;
+    int sign = 1;
+    auto *p = cs;  // 习惯
 
-        bool pos = true;
-        if (str[p] == '+') {
-            p++;
-        }
-        else if (str[p] == '-') {
-            pos = false;
-            p++;
-        }
+    // 跳过前面的空格
+    while (isspace(*p)) p++;
 
-        int n = 0;
-        while (p < len) {
-            int tmp = str[p] - '0';
-            if (tmp >= 0 && tmp <= 9) {
-                n = n * 10 + tmp;
-                p++;
-            }
-            else {
-                return 0;
-            }
-        }
+    // 判断正负
+    if (*p == '-') sign = -1;
+    if (*p == '-' || *p == '+') p++;
 
-        return pos? n : -n;
+    // 首个非空字符不是数字，注意与判断正负的顺序
+    // if (*p < '0' && *p > '9') return 0;       // 不需要
+
+    // 循环转换整数（核心代码）
+    while (*p >= '0' && *p <= '9') {
+        ret = ret * 10 + (*p - '0');
+        p++;
     }
-};
+
+    return ret * sign;
+}
 
 void solve() {
-    string str{ "  123  " };
-
-    int ret = Solution().StrToInt(str);
-    print(ret);
+    print(atoi_my("123"));
+    print(atoi_my("+123"));
+    print(atoi_my("-123"));
+    print(atoi_my("   123abc"));
+    print(atoi_my("   +123abc"));
+    print(atoi_my("   -123abc"));
+    print(atoi_my("   123abc   "));
+    print(atoi_my("   +123abc   "));
+    print(atoi_my("   -123abc   "));
+    print();
+    print(atoi_my("a123"));
+    print(atoi_my("+a123"));
+    print(atoi_my("-a123"));
+    print(atoi_my("a123   "));
+    print(atoi_my("+a123   "));
+    print(atoi_my("-a123   "));
+    print(atoi_my("   a123"));
+    print(atoi_my("   +a123"));
+    print(atoi_my("   -a123"));
+    print(atoi_my("   a123   "));
+    print(atoi_my("   +a123   "));
+    print(atoi_my("   -a123   "));
+    print(atoi_my("   a+123   "));
+    print(atoi_my("   a-123   "));
+    print();
+    const char p[] = "   123abc";
+    print(atoi_my(p));
+    print(p);
+    print();
+    print(atoi_my(NULL));
 }

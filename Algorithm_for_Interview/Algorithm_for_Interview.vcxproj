@@ -128,6 +128,13 @@
     <ClInclude Include="_utils工具函数\位运算.hpp" />
     <ClInclude Include="_utils工具函数\遍历所有正因子.hpp" />
     <ClInclude Include="_必背算法\atoi.hpp" />
+    <ClInclude Include="_必背算法\dp-01背包.hpp" />
+    <ClInclude Include="_必背算法\二分查找模板-最优解.hpp" />
+    <ClInclude Include="_必背算法\二分查找模板.hpp" />
+    <ClInclude Include="_必背算法\排序-堆排序.hpp" />
+    <ClInclude Include="_必背算法\排序-归并排序.hpp" />
+    <ClInclude Include="_必背算法\排序-快速排序.hpp" />
+    <ClInclude Include="_必背算法\快速幂.hpp" />
     <ClInclude Include="二叉树\二叉树的坡度.hpp" />
     <ClInclude Include="二叉树\二叉树的直径.hpp" />
     <ClInclude Include="二叉树\把二叉搜索树转换为累加树.hpp" />
