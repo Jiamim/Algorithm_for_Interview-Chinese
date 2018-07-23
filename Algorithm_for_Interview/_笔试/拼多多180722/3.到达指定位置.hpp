@@ -13,6 +13,7 @@
 int minStep(int x) {
     if (x == 0) return 0;
     if (x<0) x = -x;
+
     int n = sqrt(2 * x);    // 这里相当于选了一个下界， n=1 开始也能过
 
     while ((n + 1)*n / 2 - x & 1 || (n + 1)*n / 2 < x)
