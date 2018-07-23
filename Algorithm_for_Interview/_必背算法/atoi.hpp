@@ -27,12 +27,12 @@ OJ:
 #pragma once
 #include "../all.h"
 
-int atoi_my(const char* cs) {
+int atoi_my(const char* const cs) {
     if (cs == NULL) return 0;
 
     int ret = 0;
     int sign = 1;
-    auto *p = cs;  // 习惯
+    auto *p = cs;  // cs 为常指针
 
     // 跳过前面的空格
     while (isspace(*p)) p++;

@@ -135,6 +135,11 @@
     <ClInclude Include="_必背算法\排序-归并排序.hpp" />
     <ClInclude Include="_必背算法\排序-快速排序.hpp" />
     <ClInclude Include="_必背算法\快速幂.hpp" />
+    <ClInclude Include="_必背算法\排序-桶排序.hpp" />
+    <ClInclude Include="_笔试\拼多多180722\1.数组中的最长山谷.hpp" />
+    <ClInclude Include="_笔试\拼多多180722\2.字符串构造.py" />
+    <ClInclude Include="_笔试\拼多多180722\3.到达指定位置.hpp" />
+    <ClInclude Include="_笔试\拼多多180722\4.靓号.hpp" />
     <ClInclude Include="二叉树\二叉树的坡度.hpp" />
     <ClInclude Include="二叉树\二叉树的直径.hpp" />
     <ClInclude Include="二叉树\把二叉搜索树转换为累加树.hpp" />

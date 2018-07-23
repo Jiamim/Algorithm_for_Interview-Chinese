@@ -1,6 +1,7 @@
 #pragma once
 #define _CRT_SECURE_NO_WARNINGS  // 必须放在第一行
 
+#include <cassert>
 #include <cstdio>
 #include <stdio.h>
 #include <cstring>
